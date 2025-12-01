@@ -1,0 +1,29 @@
+body{
+   margin: 20px;
+   font-family: "Brush Script MT" ;
+}
+.avatar{
+    width: 150px;
+   
+}
+.card{
+
+    border:1px dotted blue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 0px auto;
+    text-align: center;
+    background: #d5bdaf;
+    border-bottom: 6px solid #c1121f;
+    color:#333d29;   
+    box-shadow: 2px 2px 12px grey;
+    transition: background 0.5s;
+     
+
+
+}
+.card:hover {
+    background: red; 
+}
